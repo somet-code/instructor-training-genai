@@ -89,7 +89,8 @@ When you are doing this:
 
 Work in groups of 3.
 One person builds a script to find duplicate files (i.e., files with identical content but different names) in or below a directory (searching recursively) - the motivation is that it will be used to detect redundant copies of datasets.
-They use an AI coding assistant while thinking aloud for at most 5 minutes. The others watch and take notes.
+They use an AI coding assistant while thinking aloud for at most 5 minutes.
+The others watch and take notes.
 
 At the end, compare the observers' notes to each other and to the subject's recollection of what they thought they were doing.
 
