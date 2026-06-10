@@ -16,7 +16,7 @@ After following this bonus module, Instructors will be able to:
 
 ::::::::::::::::::::::::::::::::: prereq
 
-This bonus module is designed for Carpentries Instructors and anyone else who has participated in [Instructor Training][it-info] or [Learner Centered Teaching][lct].
+This bonus module is designed for Carpentries Instructors and anyone else who has participated in [Instructor Training][it-info] or [Learner Centered Teaching][lct-info].
 It is not necessary for participants to have completed certification as a Carpentries Instructor.
 
 If it has been a while since you participated in Instructor Training/Learner Centered Teaching, you may benefit from reviewing the following episodes of the Instructor Training curriculum before joining the Bonus Module:
