@@ -47,7 +47,7 @@ An entire book basically says "measuring programmers' productivity is really har
 One reason is that much of software work is invisible: a field study found developers only spend 25% of their day actually writing code [Meyer2017].
 Reading, reviewing, and helping colleagues doesn't show up in simple metrics.
 
-The first question we need to ask is whether the measurement actually capture the concept?
+The first question we need to ask is whether the measurement actually captures the concept?
 Lines of code written per day fails this test: you can write more lines by making code worse.
 Most other simple measures fail as well, but that doesn't stop companies from publishing claims based on them:
 
