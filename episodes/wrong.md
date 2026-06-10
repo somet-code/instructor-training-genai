@@ -14,7 +14,7 @@ exercises: 10
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Understand why obvious measures of programming productivity are misleading.
+- Explain why obvious measures of programming productivity are misleading.
 - See how standard scientific research methods could provide less ambitious but more reliable answers.
 - Explore a practical alternative to those methods that can be used in the classroom.
 
