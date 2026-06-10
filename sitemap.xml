@@ -10,6 +10,9 @@
     <loc>https://carpentries.github.io/instructor-training-genai/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/instructor-training-genai/aio.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/instructor-training-genai/citation.html</loc>
   </url>
   <url>
@@ -17,6 +20,9 @@
   </url>
   <url>
     <loc>https://carpentries.github.io/instructor-training-genai/feedback.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/instructor-training-genai/images.html</loc>
   </url>
   <url>
     <loc>https://carpentries.github.io/instructor-training-genai/index.html</loc>
@@ -31,6 +37,9 @@
     <loc>https://carpentries.github.io/instructor-training-genai/instructor/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/instructor-training-genai/instructor/aio.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/instructor-training-genai/instructor/citation.html</loc>
   </url>
   <url>
@@ -40,10 +49,19 @@
     <loc>https://carpentries.github.io/instructor-training-genai/instructor/feedback.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/instructor-training-genai/instructor/images.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/instructor-training-genai/instructor/index.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/instructor-training-genai/instructor/instructor-notes.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/instructor-training-genai/instructor/introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/instructor-training-genai/instructor/key-points.html</loc>
   </url>
   <url>
     <loc>https://carpentries.github.io/instructor-training-genai/instructor/landscape.html</loc>
@@ -67,7 +85,13 @@
     <loc>https://carpentries.github.io/instructor-training-genai/instructor/wrong.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/instructor-training-genai/instructor-notes.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/instructor-training-genai/introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/instructor-training-genai/key-points.html</loc>
   </url>
   <url>
     <loc>https://carpentries.github.io/instructor-training-genai/landscape.html</loc>

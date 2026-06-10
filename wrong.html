@@ -108,7 +108,7 @@
     <a id="search-button" class="btn btn-primary" href="aio.html" role="button" aria-label="Search the All In One page">Search the All In One page</a>
   </div><!--/div.container-fluid -->
 </nav><aside class="col-md-12 lesson-progress"><div class="progress carpentries">
-    <div class="progress-bar carpentries" role="progressbar" style="width: 76%" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson Progress">76%</div>
+    <div class="progress-bar carpentries" role="progressbar" style="width: 72%" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson Progress">72%</div>
   </div>
 </aside><div class="container">
       <div class="row">
@@ -253,8 +253,8 @@
 
     <div id="flush-collapsecurrent" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushcurrent">
       <div class="accordion-body">
-        <ul><li><a href="#why-productivity-is-hard-to-define">Why Productivity is Hard to Define</a></li>
-<li><a href="#evaluating-claims">Evaluating Claims</a></li>
+        <ul><li><a href="#evaluating-claims">Evaluating Claims</a></li>
+<li><a href="#why-productivity-is-hard-to-define">Why Productivity is Hard to Define</a></li>
 <li><a href="#minimum-viable-rigour">Minimum Viable Rigour</a></li>
 <li><a href="#in-the-classroom">In the Classroom</a></li>
         </ul></div><!--/div.accordion-body-->
@@ -349,7 +349,10 @@
 <div class="card-body">
 <div class="inner">
 <h3 class="card-title">Questions</h3>
-<ul><li>TODO</li>
+<ul><li>Why are most claims about the impact of AI on productivity not
+reliable?</li>
+<li>What methods would be more reliable?</li>
+<li>What can we practically do in a classroom setting?</li>
 </ul></div>
 </div>
 </div>
@@ -357,46 +360,23 @@
 <div class="card-body">
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
-<ul><li>TODO</li>
+<ul><li>Explain why obvious measures of programming productivity are
+misleading.</li>
+<li>Describe how standard scientific research methods could provide less
+ambitious but more reliable answers.</li>
+<li>Explore a practical alternative to those methods that can be used in
+the classroom.</li>
 </ul></div>
 </div>
 </div>
 </div>
 </div>
 <!-- add links please --->
-<p>In 2023, GitHub announced their tools made developers 55% faster.
-That number appeared in every executive presentation for a year. This
-episode teaches you how to tell if you should believe it or not.</p>
-<section><h2 class="section-heading" id="why-productivity-is-hard-to-define">Why Productivity is Hard to Define<a class="anchor" aria-label="anchor" href="#why-productivity-is-hard-to-define"></a></h2>
-<hr class="half-width"><p>Manufacturing productivity means widgets per hour: both terms are
-measurable. But software output is not homogeneous: a ten-line bugfix
-may be worth more than a thousand-line feature. An entire book
-[Sadowski2019] basically says “this is really hard” over and over
-again…</p>
-<p>Much of software work is invisible: reading, reviewing, helping
-colleagues. A field study found developers only spend 25% of their day
-actually writing code [Meyer2017].</p>
-<p><strong>Construct validity</strong>: does the measurement actually
-capture the concept? Lines of code written per day has low construct
-validity — you can write more lines by making code worse.</p>
-<p>Here are some common mistakes made by people trying to measure
-productivity in software development:</p>
-<ul><li>Counting lines of code generated: measures verbosity, not
-value.</li>
-<li>Timing artificial tasks: a 90-minute greenfield task does not
-predict real work.</li>
-<li>Measuring only the easy half: AI makes code generation faster, but
-doesn’t count review time, debugging confidently wrong suggestions, and
-security vulnerabilities.</li>
-<li>Before/after with no control group: you cannot separate the AI
-effect from anything else that changed.</li>
-<li>Asking developers if they feel more productive: feeling productive
-is not the same as being productive, and the novelty effect inflates
-self-reports for weeks.</li>
-<li>Comparing people who volunteer to try a new tool or technique to
-those who do not: early adopters are usually already higher
-performers.</li>
-</ul></section><section><h2 class="section-heading" id="evaluating-claims">Evaluating Claims<a class="anchor" aria-label="anchor" href="#evaluating-claims"></a></h2>
+<p>In 2023, GitHub announced their tools made developers 55% faster
+[Peng2023]. That number appeared in every executive presentation for a
+year. This episode teaches you how to tell if you should believe it or
+not.</p>
+<section><h2 class="section-heading" id="evaluating-claims">Evaluating Claims<a class="anchor" aria-label="anchor" href="#evaluating-claims"></a></h2>
 <hr class="half-width"><p>Claims can be evaluated from several angles:</p>
 <ul><li>
 <strong>Conclusion validity</strong>: Was the sample large enough?
@@ -411,35 +391,78 @@ capture the claim?</li>
 <li>
 <strong>External validity</strong>: Who are the subjects, and are
 they representative of the population the conclusions address?</li>
-</ul><p>This is Research Methods 101… but most organizations (even ones
-staffed by scientists) don’t have the resources or skills to look at
-themselves this carefully.</p>
-</section><section><h2 class="section-heading" id="minimum-viable-rigour">Minimum Viable Rigour<a class="anchor" aria-label="anchor" href="#minimum-viable-rigour"></a></h2>
-<hr class="half-width"><p><strong>Formative evaluation</strong> means studying something in
+</ul><p>This is all Research Methods 101, particularly for people in
+disciplines like psychology or medicine. However, most undergraduate
+programs in computer science don’t teach research methods, so most
+programmers don’t even know what they don’t know. At the same time, most
+organizations (even ones staffed by scientists) don’t have the time or
+funding to look at themselves this carefully.</p>
+</section><section><h2 class="section-heading" id="why-productivity-is-hard-to-define">Why Productivity is Hard to Define<a class="anchor" aria-label="anchor" href="#why-productivity-is-hard-to-define"></a></h2>
+<hr class="half-width"><p>Manufacturing productivity means widgets per hour: both terms are
+measurable. But software output is not homogeneous: a ten-line bugfix
+may be worth more than a thousand-line feature. An entire book basically
+says “measuring programmers’ productivity is really hard” over and over
+again [Sadowski2019]. One reason is that much of software work is
+invisible: a field study found developers only spend 25% of their day
+actually writing code [Meyer2017]. Reading, reviewing, and helping
+colleagues doesn’t show up in simple metrics.</p>
+<p>The first question we need to ask is whether the measurement actually
+captures the concept? Lines of code written per day fails this test: you
+can write more lines by making code worse. Most other simple measures
+fail as well, but that doesn’t stop companies from publishing claims
+based on them:</p>
+<ul><li>Timing artificial tasks: a 90-minute greenfield task (i.e., one that
+starts with an empty file and builds something from scratch) does not
+predict real work, which almost always involves understanding and
+modifying existing code.</li>
+<li>Measuring only the easy half: AI makes code generation faster, but
+doesn’t count review time, debugging confidently wrong suggestions, and
+security vulnerabilities.</li>
+<li>Before/after measures with no control group: you cannot separate the
+effect of AI from the effects of other things that changed (such as
+hiring new team members, changes to infrastructure, etc.).</li>
+<li>Asking developers if they feel more productive: feeling productive
+is not the same as being productive, and the <strong>novelty
+effect</strong> inflates self-reports for weeks.</li>
+<li>Comparing people who volunteer to try a new tool or technique to
+those who do not: early adopters are usually already higher performers,
+and again, the novelty effect produces misleading results on a timescale
+of weeks.</li>
+</ul></section><section><h2 class="section-heading" id="minimum-viable-rigour">Minimum Viable Rigour<a class="anchor" aria-label="anchor" href="#minimum-viable-rigour"></a></h2>
+<hr class="half-width"><p>So what <em>can</em> we tell about the impact of AI? One place to
+look for an answer is User Experience (UX) research, which has also had
+to deal with a myriad confounding factors, accelerated timescales, and
+the need to find something actionable. UX researchers sometimes
+distinguish two kinds of evaluation:</p>
+<ul><li><p><strong>Formative evaluation</strong> means studying something in
 order to improve it. This can be done effectively with small samples,
 rapid iteration, and a qualitative focus; “what is wrong?” not “how
-often?”</p>
-<p><strong>Summative evaluation</strong> is the assessment of whether
-something works in general. It requires more participants, controlled
-conditions, and quantitative metrics.</p>
-<p>You may have identified parallels to the distinction between
+often?”</p></li>
+<li><p><strong>Summative evaluation</strong> is the assessment of
+whether something works in general. It requires more participants,
+controlled conditions, and quantitative metrics.</p></li>
+</ul><p>You may have identified parallels to the distinction between
 formative and summative evaluation for assessing learning. User
 experience groups in industry use the term “guerilla research” for
-formative evaluation. A think-aloud session with five participants is
-typically enough to identify most problems in a specific workflow for a
-specific user group [Nielsen1993].</p>
+formative evaluation, and have developed rough-and-ready techniques for
+getting <em>something</em> useful with the time and resources they have.
+For example, [Nielsen1993] found that a think-aloud session with five
+participants is typically enough to identify most problems in a specific
+workflow for a specific user group.</p>
 </section><section><h2 class="section-heading" id="in-the-classroom">In the Classroom<a class="anchor" aria-label="anchor" href="#in-the-classroom"></a></h2>
-<hr class="half-width"><p>Instructors have the opportunity to run a formative evaluation
-session each time they teach with AI coding tools. For example, you
-could ask learners to verbalize their thoughts as they work: <em>“say
-out loud whatever you are thinking”</em>. Do this on a concrete task,
-not open exploration <!-- explain why ---> For example, <em>“Given this
-pull request, use the AI assistant to write a one-paragraph summary of
-the changes”</em>. Then:</p>
-<ul><li>Observe where participants hesitate, backtrack, or state
-expectations that turn out to be wrong.</li>
-<li>Do not help when they get stuck: their reasoning process is what you
-want to observe.</li>
+<hr class="half-width"><p>As instructors, you have the opportunity to run a formative
+evaluation session each time you teach with AI coding tools. For
+example, you could ask learners to verbalize their thoughts as they
+work: <em>“say out loud whatever you are thinking”</em>. It is most
+useful to do this on a concrete task, not open exploration, so that you
+and learners can compare experiences, and so that there is a direction
+or purpose to the learner’s thinking. For example, you could tell
+learners, <em>“Given this pull request, use the AI assistant to write a
+one-paragraph summary of the changes.”</em> When you are doing this:</p>
+<ul><li>Pay particular attention to where participants hesitate, backtrack,
+or state expectations that turn out to be wrong.</li>
+<li>Do not help when they get stuck: you want to observe their reasoning
+process before trying to extend or correct it.</li>
 <li>Summarize observations at the end and have other learners compare
 with their own experience.</li>
 </ul><div id="practicing-this-exercise" class="callout discussion">
@@ -453,9 +476,9 @@ with their own experience.</li>
 <p>Work in groups of 3. One person builds a script to find duplicate
 files (i.e., files with identical content but different names) in or
 below a directory (searching recursively) - the motivation is that it
-will be used to detect redundant copies of datasets or photographs. They
-use an AI coding assistant while thinking aloud for at most 5 minutes.
-The others watch and take notes.</p>
+will be used to detect redundant copies of datasets. They use an AI
+coding assistant while thinking aloud for at most 5 minutes. The others
+watch and take notes.</p>
 <p>At the end, compare the observers’ notes to each other and to the
 subject’s recollection of what they thought they were doing.</p>
 <p>What would you tell the next person to do (in particular, to do
@@ -470,7 +493,14 @@ differently) based on what you observed?</p>
 <span class="callout-header">Key Points</span>
 <div class="callout-inner">
 <div class="callout-content">
-<ul><li>TODO</li>
+<ul><li>There is no generally-accepted way to measure the productivity of
+programmers, which makes measuring the impact of AI on productivity
+problematic.</li>
+<li>Most of the claims being made about AI’s impact would not pass
+scrutiny in an introductory course on research methods.</li>
+<li>Guerilla research methods used by User Experience researchers, such
+as think-aloud protocols, can reveal opportunities for improvement in
+specific workflows for specific users.</li>
 </ul></div>
 </div>
 </div>
