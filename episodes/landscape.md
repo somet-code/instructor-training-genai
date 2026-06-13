@@ -56,7 +56,7 @@ There are genAI extensions available for most IDEs, as well as some "AI first" I
 alt='In this scenario, you provide a high-level description of a task that you want an AI agent to perform. The agent is able to execute software on the system, read and edit files, perform version control operations, etc.'
 }
 
-Coding agents are applications that allow the model to directly use tools, executing commands on the system and processing feedback from those commands (e.g., reading error messages, writing to output files, etc).
+Coding agents are applications that allow the model to directly use tools, executing commands on the system and processing feedback from those commands (e.g., reading error messages and the contents of output files).
 The user provides a description of the task they want to achieve to the agent, which processes those instructions and acts on the user's behalf.
 The agent may read and write files, including new programs, run commands on the system, process feedback, potentially run new commands based on the results, and so on until it gets stuck, is interrupted, or determines that the task has been completed.
 
