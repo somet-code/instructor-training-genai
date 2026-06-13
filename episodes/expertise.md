@@ -41,7 +41,7 @@ To keep improving the results they receive, and take responsibility for AI-gener
 :::::::::::::::::::::::::::::::::::::::::::::::::: challenge
 
 ### Copying/pasting Exercises
-One challenge that Instructors now report encountering in workshops is that some learners will choose to copy and paste the text of an exercise into a chatbot use and the code it produces to “solve” the exercise. 
+One challenge that Instructors now report encountering in workshops is that some learners will choose to copy and paste the text of an exercise into a chatbot, then copy and paste the code it produces back out again, to “solve” the exercise. 
 What are some ways that you might notice this is happening in a workshop?
 Suggest one strategy that an Instructor could employ to discourage or prevent learners from doing this.
 
